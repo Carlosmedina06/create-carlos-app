@@ -1,0 +1,53 @@
+{
+  "name": "create-medina-app",
+  "version": "1.0.0",
+  "description": "Create any project with the best configurations",
+  "main": "index.mjs",
+  "bin": {
+    "create-medina-app": "dist/index.js"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "keywords": [
+    "react",
+    "carlosmedina06",
+    "typescript",
+    "next.js",
+    "tailwindcss",
+    "eslint",
+    "react-native",
+    "expo",
+    "node.js"
+  ],
+  "author": "carlosmedina06",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^10.3.5",
+    "picocolors": "^1.0.0",
+    "prompts": "^2.4.2",
+    "yargs": "^17.7.2"
+  },
+  "scripts": {
+    "build": "tsup",
+    "start": "node dist/index.js",
+    "dev": "tsup --watch",
+    "bump": "npm run build && npm version patch && git tag latest --force && git push origin main --tags --force && npm publish --tag latest --force"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/prompts": "^2.4.9",
+    "@types/yargs": "^17.0.32",
+    "prettier": "^3.0.3",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3",
+    "eslint": "8.56.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-config-standard": "17.1.0",
+    "eslint-plugin-import": "2.29.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "5.1.3",
+    "@typescript-eslint/eslint-plugin": "6.19.0",
+    "@typescript-eslint/parser": "6.19.0"
+  }
+}

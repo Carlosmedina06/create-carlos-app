@@ -1,0 +1,7 @@
+node_modules
+.env
+package-lock.json
+dist
+swagger-output.json
+src/utils/logs/
+.DS_Store
