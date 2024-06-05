@@ -1,5 +1,5 @@
 
-# Create-Medina-App 🚀
+# Create-Carlos-App 🚀
 
 is a tool that allows you to kickstart projects quickly with optimal predefined configurations. Streamline your development workflow and start building your ideas without wasting time on initial setup.
 
@@ -20,7 +20,7 @@ is a tool that allows you to kickstart projects quickly with optimal predefined 
 Install my-project with npm
 
 ```bash
-  npm install -g create-medina-app
+  npm install -g create-carlos-app
 ```
 
 ## Usage
@@ -28,11 +28,11 @@ Install my-project with npm
 To create a new project, simply run the following command and follow the prompts:
 
 ```bash
-  create-medina-app
+  create-carlos-app
 ```
 
 ## Templates
-create-medina-app offers various templates to choose from, including:
+create-carlos-app offers various templates to choose from, including:
 
 - Next.js + ESLint + TypeScript + Tailwind
 - React (vite) + ESLint + TypeScript + Tailwind
@@ -44,7 +44,7 @@ create-medina-app offers various templates to choose from, including:
 You can override the template used by specifying the --template option:
 
 ```bash
-  create-medina-app --template <template>
+  create-carlos-app --template <template>
 ```
 
 ## Additional Options
@@ -53,7 +53,7 @@ Override Project Name
 You can override the project name by specifying the --name option:
 
 ```bash
-  create-medina-app --name <name>
+  create-carlos-app --name <name>
 ```
 
 
@@ -61,4 +61,4 @@ You can override the project name by specifying the --name option:
 
 If you have any questions, feel free to open an issue or contact me on 
 
-[![Connect with Carlos Medina on LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/carlosmedina06/)
+[![Connect with Carlos carlos on LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/carlosmedina06/)
