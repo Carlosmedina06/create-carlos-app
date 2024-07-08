@@ -36,9 +36,9 @@ create-carlos-app offers various templates to choose from, including:
 
 - Next.js + ESLint + TypeScript + Tailwind
 - React (vite) + ESLint + TypeScript + Tailwind
-- React Native + Expo + ESLint + TypeScript + NativeWind
 - Node.js + Express + ESLint + TypeScript
 - Node.js + Express + ESLint + TypeScript + Sequelize
+- Node.js + NestJS + GraphQL + ESLint + TypeScript + Sequelize
 
 ## Override Template
 You can override the template used by specifying the --template option:

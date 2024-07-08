@@ -1,0 +1,53 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type User {
+  id: Int!
+  username: String!
+  email: String!
+}
+
+type Post {
+  id: Int!
+  title: String!
+  content: String!
+  userId: Int!
+}
+
+type Query {
+  users: [User!]!
+  user(id: Float!): User!
+  posts(simple: Boolean!): [Post!]!
+  post(id: Float!): Post!
+}
+
+type Mutation {
+  createUser(createUserDto: CreateUserDto!): User!
+  updateUser(id: Float!, updateUserDto: UpdateUserDto!): User!
+  removeUser(id: Float!): User!
+  createPost(createPostDto: CreatePostDto!): Post!
+  updatePost(id: Float!, updatePostDto: UpdatePostDto!): Post!
+  removePost(id: Float!): Post!
+}
+
+input CreateUserDto {
+  username: String!
+  email: String!
+}
+
+input UpdateUserDto {
+  username: String!
+  email: String!
+}
+
+input CreatePostDto {
+  title: String!
+  content: String!
+  userId: Int!
+}
+
+input UpdatePostDto {
+  title: String!
+  content: String!
+}

@@ -8,10 +8,6 @@ const TEMPLATES = [
     value: 'next-eslint-ts-tw',
   },
   {
-    title: 'React-Native + Expo + ESLint + TypeScript + NativeWind + React Navigation',
-    value: 'rn-expo-eslint-ts-nw-rn',
-  },
-  {
     title: 'Node.js + Expres + ESLint + TypeScript',
     value: 'node-express-eslint-ts',
   },
@@ -20,12 +16,8 @@ const TEMPLATES = [
     value: 'node-express-eslint-ts-sequelize',
   },
   {
-    title: 'Node.js + Expres + ESLint + TypeScript + Prisma',
-    value: 'node-express-eslint-ts-prisma',
-  },
-  {
-    title: 'Node.js + Expres + ESLint + TypeScript + Mongoose',
-    value: 'node-express-eslint-ts-mongoose',
+    title: 'Node.js + Nest.js + GraphQL + ESLint + TypeScript + Sequelize',
+    value: 'node-nest-graphql-ts-sequelize',
   },
 ]
 

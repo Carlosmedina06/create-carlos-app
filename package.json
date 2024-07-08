@@ -1,6 +1,6 @@
 {
   "name": "create-carlos-app",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create any project with the best configurations",
   "main": "index.mjs",
   "bin": {
@@ -18,7 +18,10 @@
     "eslint",
     "react-native",
     "expo",
-    "node.js"
+    "node.js",
+    "express",
+    "nestjs",
+    "graphql"
   ],
   "author": "carlosmedina06",
   "license": "ISC",
