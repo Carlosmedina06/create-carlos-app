@@ -1,6 +1,6 @@
 {
   "name": "create-carlos-app",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Create any project with the best configurations",
   "main": "index.mjs",
   "bin": {
