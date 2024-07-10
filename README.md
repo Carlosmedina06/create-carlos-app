@@ -35,6 +35,7 @@ To create a new project, simply run the following command and follow the prompts
 create-carlos-app offers various templates to choose from, including:
 
 - Next.js + ESLint + TypeScript + Tailwind
+- Next.js + GraphQL + ESLint + TypeScript + Tailwind 
 - React (vite) + ESLint + TypeScript + Tailwind
 - Node.js + Express + ESLint + TypeScript
 - Node.js + Express + ESLint + TypeScript + Sequelize
