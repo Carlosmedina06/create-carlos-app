@@ -8,6 +8,10 @@ const TEMPLATES = [
     value: 'next-eslint-ts-tw',
   },
   {
+    title: 'Next.js + ApolloGraphQL + ESLint + TypeScript + Tailwind',
+    value: 'next-graphql-eslint-ts-tw',
+  },
+  {
     title: 'Node.js + Expres + ESLint + TypeScript',
     value: 'node-express-eslint-ts',
   },
