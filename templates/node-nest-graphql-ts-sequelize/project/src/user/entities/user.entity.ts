@@ -27,6 +27,7 @@ export class User extends Model<User> {
   })
   email: string
 
+  @Field(() => [Post])
   @HasMany(() => Post)
   posts: Post[]
 }

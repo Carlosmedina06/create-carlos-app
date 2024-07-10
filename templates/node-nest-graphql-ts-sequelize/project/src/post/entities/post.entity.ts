@@ -35,6 +35,7 @@ export class Post extends Model<Post> {
   })
   userId: number
 
+  @Field(() => User)
   @BelongsTo(() => User)
   user: User
 }

@@ -11,6 +11,8 @@
   "dependencies": {
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
+    "@apollo/client": "3.10.1",
+    "@apollo/experimental-nextjs-app-support": "^0.10.0",
     "next": "14.2.3",
     "react": "18",
     "react-dom": "18",
